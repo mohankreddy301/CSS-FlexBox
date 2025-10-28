@@ -5,20 +5,45 @@ ul {
 * {
   margin: 0;
 }
+body {
+  background-color: lightseagreen;
+}
+nav {
+  background-color: bisque;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  padding-right: 10px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  box-shadow: 2px 5px 5px rgb(184, 175, 175);
+}
 
 main {
   min-height: 500px;
   display: flex;
-  background-color: lightseagreen;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   border: 3x solid;
   gap: 20px;
+  padding-top: 10px;
 }
 
 .box {
- width: 200px;
- height: 200px;
+  width: 200px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   background-color: tomato;
@@ -27,6 +52,11 @@ main {
   justify-content: center;
   padding: 10px;
   gap: 5px;
+  /* transition-property: transform;
+  transition-duration: 3s;
+    transition-timing-function: ease;
+  transition-delay: 0s; */
+  transition: all 2s ease-in 0s, transform 2s ease 0s;
 }
 
 input {
@@ -39,9 +69,14 @@ input {
   box-shadow: none;
 }
 
+.box:hover {
+  scale: 1.2;
+  transform: rotate(135deg);
+}
+
 input::placeholder {
   color: whitesmoke;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: lighter;
 }
 
@@ -53,6 +88,7 @@ button {
   background-color: transparent;
   border: none;
   color: whitesmoke;
+  height: 30px;
 }
 
 .forgot {
