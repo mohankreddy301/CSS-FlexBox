@@ -1,3 +1,3 @@
 # CSS-FlexBox
 
-<img width="1503" height="699" alt="Screenshot 2025-10-28 at 9 36 16 AM" src="https://github.com/user-attachments/assets/2d74fcb3-aa48-4fe9-b2d9-c18b2903b511" />
+<img width="1509" height="766" alt="Screenshot 2025-10-28 at 10 15 14 AM" src="https://github.com/user-attachments/assets/90f53733-c63c-401c-ad24-595f4224c619" />
