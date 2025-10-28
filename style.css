@@ -1,0 +1,67 @@
+ul {
+    list-style: none;
+}
+
+main {
+    min-height: 500px;
+    display: flex;
+    background-color: lightseagreen;
+    justify-content: center;
+    align-items: center;
+    border: 3x solid ;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin: 5px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    background-color: lightseagreen;
+    background-color: tomato;
+    border-radius: 10px;
+    border: none;
+    flex: 1;
+   
+}
+
+input {
+    margin: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.8px solid rgb(24, 17, 17);
+    color: white;
+    cursor: pointer;
+    box-shadow: none;
+}
+input::placeholder {
+    color: whitesmoke;
+    font-size: 8px;
+    font-weight: lighter;
+}
+input:focus-visible {
+    outline: none;
+}
+button {
+    background-color: transparent;
+    border: none;
+     color: whitesmoke;
+}
+.forgot {
+    align-self: flex-end;
+    font-size: 8px;
+}
+.signin{
+background-color: blue;
+border-radius: 5px;
+border: none;
+margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}
